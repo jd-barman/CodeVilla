@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+  background-color: beige;
+}
+
+
+.navbar-logo{
+  width: 45px;
+  padding-right: 14px;
+
+}
+
+#overlay{
+    backdrop-filter: blur(20px); 
+    background-color: rgba(255, 255, 255, 0.095);
+}
+
+.hero-subtitle{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-text{
+    margin-top: 190px;
+    line-height: 1.2;
+    font-size: 3.5rem;
+}
+
+.codevilla{
+    font-size: 5.5rem;
+    text-decoration: underline;
+}
+
+.horizon{
+    text-decoration: underline;
+}
+
+.learn{
+    text-decoration: underline;
+}
+
+.features{
+  padding: 50px;
+}
+
+.why-heading{
+  margin-bottom: 40px;
+}
+
+.explore{
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.explore:hover{
+  font-size: medium;
+  text-decoration: underline;
+  transition: all .2s ease-in;
+  color: aqua;
+}
+
+
+.gallery{
+  padding: 40px;
+}
+
+.form-entry{
+  padding: 40px;
+}
+
+.contact-us{
+  padding: 40px;
+}
+
+.card{
+    transition: all 0.4s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* Register-Login */
+.form-card{
+  border-radius: 30px;
+}
+
+.form-card img{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.sign-btn{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: black;
+  color: beige;
+}
+
+#email-error{
+  color: red;
+}
+
+#pass-error{
+  color: red;
+}
+
+.sign-btn:hover{
+  background: beige;
+  border: 1px solid black;
+  color: black;
+}
+
+
+/* footer */
+.footer-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #333;
+}
+
+.footer-top a{
+    color: #888;
+    text-decoration: none;
+}
+
+.navi > i{
+    margin-left: 0;
+}
+
+.footer-top a:hover{
+    color: white;
+}
+
+.logo{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.logo-text{
+    font-family: 'Yatra One', cursive;
+    color: beige;
+}
+
+.list-text{
+    color: #888;
+}
+
+footer .nav-link:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
